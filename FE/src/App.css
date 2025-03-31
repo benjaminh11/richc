@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  background-color: #CA7850;  /* Red */
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo h1 {
+  margin: 0;
+}
+
+.navbar-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar-links li {
+  margin: 0 15px;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-section {
+  background-color: #93B5DA;  /* Blue */
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero-section h1 {
+  margin-bottom: 20px;
+}
+
+.hero-section button {
+  padding: 12px 25px;
+  background-color: #CA7850;  /* Red */
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.services-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.service-card {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+  color: #CA7850;  /* Red */
+}
+
+.service-card button {
+  padding: 10px 20px;
+  background-color: #93B5DA;  /* Blue */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form {
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+}
+
+.contact-form form button {
+  padding: 12px 25px;
+  background-color: #CA7850;  /* Red */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #CA7850;  /* Red */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer p {
+  margin: 0;
+}
