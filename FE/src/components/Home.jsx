@@ -1,11 +1,9 @@
-import React from 'react';
-import ServiceCard from "./ServiceCard";
+import React from "react";
 
 function Home() {
   return (
-    <div>
-      <h1>home</h1>
-      <ServiceCard />
+    <div className="home">
+      <h1>Home</h1>
     </div>
   );
 }

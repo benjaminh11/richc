@@ -1,17 +1,28 @@
-import React from 'react';
-import { Link, useNavigate } from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
-   
-
-return (
+  return (
     <nav className="navbar">
       <div className="navbar-logo">
         <h1>Concordare Claims</h1>
       </div>
       <ul className="navbar-links">
-      <Link to="/">Home</Link>
-      <Link to="/ContactPage">Contact</Link>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/About">About</Link>
+        </li>
+        <li>
+          <Link to="/Services">Services</Link>
+        </li>
+        <li>
+          <Link to="/ContactPage">Contact</Link>
+        </li>
+        <li>
+          <Link to="/Testimonials">Testimonials</Link>
+        </li>
       </ul>
     </nav>
   );
